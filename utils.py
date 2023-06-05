@@ -1,8 +1,5 @@
 import json
-import os
 from datetime import datetime
-
-PATH = os.path.join("operations.json")
 
 
 def load_operations(path):
