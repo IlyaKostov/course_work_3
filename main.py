@@ -1,6 +1,6 @@
 import os
 
-from utils import load_operations, sorted_by_date, last_executed_operations, date_converter, hide_card_and_account
+from utils.utils import load_operations, sorted_by_date, last_executed_operations, date_converter, hide_card_and_account
 
 PATH = os.path.join("operations.json")
 
