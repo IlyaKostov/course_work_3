@@ -88,4 +88,4 @@ def hide_card_and_account(operation):
     elif 'to' in operation:
         return f'{to_str} {masked_to_int}'
     else:
-        return "Номер карты/счета не указан"
+        return "Номер карты/счета получателя не указан"
